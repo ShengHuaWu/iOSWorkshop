@@ -7,11 +7,14 @@ public enum JSONReaderError: Error {
 public final class JSONReader {
     public init() {}
     
-    public func readFile() throws -> URL {
+    public func readFile() throws -> [Container] {
         guard let url = Bundle.module.url(forResource: "requestlog-charges", withExtension: "json") else {
             throw JSONReaderError.fileNotFound
         }
         
-        return url
+        let data = try Data(contentsOf: url)
+        let containers = try JSONDecoder().decode([Container].self, from: data)
+        
+        return containers
     }
 }

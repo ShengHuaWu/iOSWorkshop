@@ -22,5 +22,9 @@ let package = Package(
             name: "JSONReader",
             resources: [.process("Resources")]
         ),
+        .testTarget(
+            name: "JSONReaderTests",
+            dependencies: ["JSONReader"]
+        ),
     ]
 )
