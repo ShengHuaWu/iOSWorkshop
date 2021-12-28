@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "RequestReplay",
+    platforms: [
+        .macOS(.v12)
+    ],
     products: [
         .executable(name: "RequestReplay", targets: ["RequestReplay"]),
         .library(name: "JSONReader", targets: ["JSONReader"]),
