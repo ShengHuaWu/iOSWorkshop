@@ -10,8 +10,24 @@ public struct Request: Decodable {
     public let headers: [String: String]
     public let body: String
     public let method: String
+    
+    public init(
+        url: String,
+        headers: [String: String],
+        body: String,
+        method: String
+    ) {
+        self.url = url
+        self.headers = headers
+        self.body = body
+        self.method = method
+    }
 }
 
 public struct Response: Decodable {
     public let code: Int
+    
+    public init(code: Int) {
+        self.code = code
+    }
 }

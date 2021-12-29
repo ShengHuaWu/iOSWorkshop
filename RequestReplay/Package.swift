@@ -26,6 +26,10 @@ let package = Package(
             resources: [.process("Resources")]
         ),
         .testTarget(
+            name: "RequestReplayTests",
+            dependencies: ["RequestReplay"]
+        ),
+        .testTarget(
             name: "JSONReaderTests",
             dependencies: ["JSONReader"]
         ),
