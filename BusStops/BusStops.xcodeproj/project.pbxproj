@@ -36,7 +36,6 @@
 		9B120548278AF1ED003D2A9C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		9B12054A278AF39F003D2A9C /* TransportClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportClient.swift; sourceTree = "<group>"; };
 		9B12054C278AF47C003D2A9C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		9B20F324278AFAB300E43DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9B20F325278AFBF400E43DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9B3BBD78278AF88700D7F132 /* BusStopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusStopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3BBD7A278AF88700D7F132 /* BusStopsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopsTests.swift; sourceTree = "<group>"; };
@@ -104,7 +103,6 @@
 		9B3BBD79278AF88700D7F132 /* BusStopsTests */ = {
 			isa = PBXGroup;
 			children = (
-				9B20F324278AFAB300E43DCD /* Info.plist */,
 				9B3BBD7A278AF88700D7F132 /* BusStopsTests.swift */,
 			);
 			path = BusStopsTests;
